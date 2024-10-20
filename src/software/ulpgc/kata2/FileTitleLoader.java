@@ -21,7 +21,7 @@ public class FileTitleLoader implements TitleLoader{
             while (true){
                 String line = reader.readLine();
                 if(line == null) break;
-                titles.add(deserializer.deserialze(line));
+                titles.add(deserializer.deserialize(line));
             }
         }
         return titles;
